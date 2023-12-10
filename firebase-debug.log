@@ -1,0 +1,161 @@
+[debug] [2023-12-10T15:39:05.898Z] ----------------------------------------------------------------------
+[debug] [2023-12-10T15:39:05.901Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Urooj Fatima\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-12-10T15:39:05.902Z] CLI Version:   13.0.1
+[debug] [2023-12-10T15:39:05.903Z] Platform:      win32
+[debug] [2023-12-10T15:39:05.903Z] Node Version:  v18.12.1
+[debug] [2023-12-10T15:39:05.904Z] Time:          Sun Dec 10 2023 20:39:05 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-12-10T15:39:05.904Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-10T15:39:06.054Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-10T15:39:06.055Z] > authorizing via signed-in user (uroojfatimah1022005@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Urooj Fatima\Downloads\Student-Management-master
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-12-10T15:39:24.965Z] Using project from CLI flag: student-management-b6236
+[debug] [2023-12-10T15:39:24.967Z] > refreshing access token with scopes: []
+[debug] [2023-12-10T15:39:24.971Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-12-10T15:39:24.971Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-12-10T15:39:25.629Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-12-10T15:39:25.629Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-12-10T15:39:25.675Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/student-management-b6236 [none]
+[debug] [2023-12-10T15:39:26.521Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/student-management-b6236 403
+[debug] [2023-12-10T15:39:26.521Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/student-management-b6236 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-12-10T15:39:26.522Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-12-10T15:39:26.524Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Urooj Fatima\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Urooj Fatima\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:292:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project student-management-b6236. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-12-10T15:39:58.989Z] ----------------------------------------------------------------------
+[debug] [2023-12-10T15:39:58.993Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Urooj Fatima\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-12-10T15:39:58.993Z] CLI Version:   13.0.1
+[debug] [2023-12-10T15:39:58.994Z] Platform:      win32
+[debug] [2023-12-10T15:39:58.994Z] Node Version:  v18.12.1
+[debug] [2023-12-10T15:39:58.995Z] Time:          Sun Dec 10 2023 20:39:58 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-12-10T15:39:58.996Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-10T15:39:59.156Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-10T15:39:59.157Z] > authorizing via signed-in user (uroojfatimah1022005@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Urooj Fatima\Downloads\Student-Management-master
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-12-10T15:40:15.332Z] Using project from CLI flag: student-management-b6236
+[debug] [2023-12-10T15:40:15.337Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/student-management-b6236 [none]
+[debug] [2023-12-10T15:40:16.094Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/student-management-b6236 403
+[debug] [2023-12-10T15:40:16.094Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/student-management-b6236 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-12-10T15:40:16.095Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-12-10T15:40:16.097Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Urooj Fatima\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Urooj Fatima\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:292:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project student-management-b6236. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-12-10T15:40:24.634Z] ----------------------------------------------------------------------
+[debug] [2023-12-10T15:40:24.640Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Urooj Fatima\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-12-10T15:40:24.641Z] CLI Version:   13.0.1
+[debug] [2023-12-10T15:40:24.642Z] Platform:      win32
+[debug] [2023-12-10T15:40:24.642Z] Node Version:  v18.12.1
+[debug] [2023-12-10T15:40:24.644Z] Time:          Sun Dec 10 2023 20:40:24 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-12-10T15:40:24.644Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-10T15:40:24.796Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-10T15:40:24.797Z] > authorizing via signed-in user (uroojfatimah1022005@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Urooj Fatima\Downloads\Student-Management-master
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-12-10T15:40:51.780Z] Using project from CLI flag: student-management-b6236
+[debug] [2023-12-10T15:40:51.784Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/student-management-b6236 [none]
+[debug] [2023-12-10T15:40:52.500Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/student-management-b6236 403
+[debug] [2023-12-10T15:40:52.501Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/student-management-b6236 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-12-10T15:40:52.502Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-12-10T15:40:52.503Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Urooj Fatima\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Urooj Fatima\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:292:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project student-management-b6236. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-12-10T15:40:59.033Z] ----------------------------------------------------------------------
+[debug] [2023-12-10T15:40:59.037Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Urooj Fatima\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-12-10T15:40:59.037Z] CLI Version:   13.0.1
+[debug] [2023-12-10T15:40:59.038Z] Platform:      win32
+[debug] [2023-12-10T15:40:59.038Z] Node Version:  v18.12.1
+[debug] [2023-12-10T15:40:59.040Z] Time:          Sun Dec 10 2023 20:40:59 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-12-10T15:40:59.040Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-10T15:40:59.183Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-10T15:40:59.184Z] > authorizing via signed-in user (uroojfatimah1022005@gmail.com)
+[debug] [2023-12-10T15:40:59.185Z] [iam] checking project student-management-b6236 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-12-10T15:40:59.189Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/student-management-b6236:testIamPermissions [none]
+[debug] [2023-12-10T15:40:59.189Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/student-management-b6236:testIamPermissions x-goog-quota-user=projects/student-management-b6236
+[debug] [2023-12-10T15:40:59.190Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/student-management-b6236:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-12-10T15:41:01.280Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/student-management-b6236:testIamPermissions 200
+[debug] [2023-12-10T15:41:01.280Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/student-management-b6236:testIamPermissions {}
+[debug] [2023-12-10T15:41:01.281Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project student-management-b6236:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2023-12-10T15:41:01.283Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/student-management-b6236 [none]
+[debug] [2023-12-10T15:41:01.891Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/student-management-b6236 403
+[debug] [2023-12-10T15:41:01.892Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/student-management-b6236 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-12-10T15:41:01.894Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-12-10T15:41:01.898Z] Specified "public" directory "build" does not exist; Deploy to Hosting site "" may fail or be empty.
+[error] 
+[error] Error: Assertion failed: resolving hosting target of a site with no site name or target name. This should have caused an error earlier
